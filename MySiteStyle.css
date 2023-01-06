@@ -1,0 +1,132 @@
+
+body{
+  background-color: #7a9796;
+  margin: 2%;
+}
+
+body *{
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+}
+
+.style{
+color: black;
+padding: 8px;
+margin: 0.5%;
+border-radius: 10px;
+font-size: 32px;
+text-decoration: none;
+}
+
+div {
+  display: inline-block;
+  background-color: #d7e4e6;
+  height: 600px ;
+  width: 75%;
+  margin-right: 2px;
+}
+
+.style h1{
+color: #ad5916;
+background-color: #d7e4e6;
+padding: 2%;
+margin: 1%;
+border-radius: 10px;
+font-size: 32px;
+text-align: center;
+text-decoration: none;
+}
+
+.style h3{
+color: #ad5916;
+display: inline-block;
+background-color: #d7e4e6;
+padding: 8px;
+margin: 0.5%;
+text-align: left;
+float: left;
+text-decoration: none;
+}
+
+
+.style p{
+display: inline-block;
+height: 30%;
+width: 60%;
+float: left;
+color: black;
+border-radius: 10px;
+font-size: 15px;
+text-align: left;
+text-decoration: none;
+}
+
+.style div + img{
+  display: inline-block;
+  color: #ad5916;
+  background-color: #d7e4e6;
+  margin: 30%;
+}
+
+.style img{
+  display: inline-block;
+  color: #ad5916;
+  background-color: #;
+  float : right;
+}
+
+nav {
+  background-image: url("https://i.pinimg.com/originals/13/e7/c5/13e7c54855529e1f076bcdc082bccae4.jpg");
+  opacity: 0.9;
+}
+nav ul{
+  margin 0;
+}
+nav li {
+  color: #376973;
+  display:inline-block;
+}
+nav li a {
+  color: #9bbcc2;
+  display: inline-block;
+  padding: 16px 30px;
+  font-size: 32px;
+  font-weight: 300;
+}
+nav li a:hover{
+  color: #ad5916;
+}
+
+div {
+  display: inline-block;
+  background-color: #d7e4e6;
+  height: 250px ;
+  width: 75%;
+  margin-right: 2px;
+  float: inherit;
+}
+
+aside {
+   background-image: url("https://i.pinimg.com/originals/13/e7/c5/13e7c54855529e1f076bcdc082bccae4.jpg");
+   display: inline-block;
+   height: 500px;
+   width: 20%;
+   float: right;
+ }
+
+ footer {
+   background-image: url("https://i.pinimg.com/originals/13/e7/c5/13e7c54855529e1f076bcdc082bccae4.jpg");
+   height: 75px ;
+ }
+
+ th{
+   padding: 2px 15px;
+   width: 15%;
+ }
+
+ table{
+   display: inline-block;
+   margin: 10px 0px;
+   float: left;
+   width: 40%;
+ }
